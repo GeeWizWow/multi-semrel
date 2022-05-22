@@ -1,4 +1,4 @@
-const { div } = require('@geewizwow/lib-b');
+const { div } = require('@geewizwow/multi-semrel-lib-b');
 
 module.exports = {
     add: (a, b) => a + b,

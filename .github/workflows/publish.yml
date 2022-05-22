@@ -29,6 +29,6 @@ jobs:
             --debug
 
         env:
-          GITHUB_TOKEN: ${{ secrets.PUBLISH_TOKEN }}
-          NPM_TOKEN: ${{ secrets.PUBLISH_TOKEN }}
-          NODE_AUTH_TOKEN: ${{ secrets.PUBLISH_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          NPM_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}

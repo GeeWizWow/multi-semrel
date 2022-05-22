@@ -1,8 +1,8 @@
 {
-    "name": "@geewizwow/lib-b",
+    "name": "@geewizwow/multi-semrel-lib-b",
     "version": "0.0.0",
     "main": "lib/index.js",
-    "repository": "https://github.com/GeeWizWow/lerna-semrel",
+    "repository": "https://github.com/GeeWizWow/multi-semrel",
     "publishConfig": {
         "registry": "https://npm.pkg.github.com/"
     },
@@ -10,10 +10,10 @@
         "lib"
     ],
     "devDependencies": {
-        "@geewizwow/semrel-config": "*"
+        "@geewizwow/multi-semrel-config": "*"
     },
     "release": {
-        "extends": "@geewizwow/semrel-config"
+        "extends": "@geewizwow/multi-semrel-config"
     }
 }
   
