@@ -1,0 +1,15 @@
+{
+    "name": "@geewizwow/semrel-config",
+    "version": "0.0.0",
+    "main": "lib/index.js",
+    "repository": "https://github.com/GeeWizWow/lerna-semrel",
+    "publishConfig": {
+        "registry": "https://npm.pkg.github.com/"
+    },
+    "files": [
+        "lib"
+    ],
+    "release": {
+        "extends": "./lib/index.js"
+    }
+}
